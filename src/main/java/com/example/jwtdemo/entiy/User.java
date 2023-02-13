@@ -16,4 +16,9 @@ public class User {
     private Integer age = 12;
     private Integer id = 2;
     private String password;
+    public User(String name, String password, Integer id) {
+        this.name = name;
+        this.password = password;
+        this.id = id;
+    }
 }
